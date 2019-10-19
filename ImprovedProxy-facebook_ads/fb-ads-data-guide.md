@@ -80,7 +80,7 @@ To prevent some timing issues we will separate the facebook pixel code into thre
 (initializing the base code, the pageview push and the cloaked affiliate link click push):</br>
 </br>
 	**Tag 1. Facebook Pixel ‘Base code’**</br>
-</br>
+
 Create a new custom HTML tag in google tag manager</br>
 Take the code provided for your facebook pixel, and take out the following part</br>
   “ fbq('track', "PageView"); “</br>
