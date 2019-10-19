@@ -1,14 +1,15 @@
 
-Webtrekk Tag generator tool for Webtrekk Campaigntracking. 
-Create the complete tagged URLs (URL+mediacodes) for Webtrekk Analytics with dropdown selection lists (XLS).
+# Webtrekk Tag generator tool for Webtrekk Campaigntracking. # 
+Create the complete tagged URLs (URL+mediacodes) for **Webtrekk Analytics** with dropdown selection lists (XLS).
 
 Dropdown lists (data validation) to create the full string (URL + mediacode).
 
-With built in 'seperator checker' (counts and validates the amount of seperators in your final taggedn URL),
-'parameter minimum checker', and some other small checks.
+*With built in 'seperator checker' (counts and validates the amount of seperators in your final taggedn URL),
+'parameter minimum checker', and some other small checks.*
+</br>
+</br>
 
-
-Includes;
+**Includes;**
 - publication date (list for day, month, year)
 - URL (landingpage):
    - protocol (http / https)
@@ -22,7 +23,10 @@ Includes;
 - Parameter 6 (empty)
 - 'Advertising Media' (empty)
 - Extra custom parameter (&cc1=..)
-(- Seperators and 'wt_mc=')
-
-//Custom made for UWV campaign structure. 
+(- Seperators and 'wt_mc=')</br>
+</br>
+</br>
+** Custom made for UWV campaign structure. ** </br>
+</br>
+</br>
 TagTool_Webtrekk_CampaingTracking
