@@ -79,7 +79,7 @@ Installing the facebook Pixel.</br>
 To prevent some timing issues we will separate the facebook pixel code into three tags</br>
 (initializing the base code, the pageview push and the cloaked affiliate link click push):</br>
 </br>
-Tag 1. Facebook Pixel ‘Base code’</br>
+	**Tag 1. Facebook Pixel ‘Base code’**</br>
 </br>
 
 Create a new custom HTML tag in google tag manager</br>
@@ -111,7 +111,7 @@ Fold open the ‘advanced settings’ and put in 99 (highest) in tag firing prio
 
 Select ‘All Pages’ as firing Trigger.</br>
 </br>
-Tag 2. Facebook Pixel ‘pageview’</br>
+	**Tag 2. Facebook Pixel ‘pageview’**</br>
 	
 	Create another tag (see tag 1) but use the following code in the HTML field instead:
 	```
@@ -121,7 +121,7 @@ Tag 2. Facebook Pixel ‘pageview’</br>
 	 ```
 	(this time leave tag firing priority empty)
 </br>
-Tag 3. Facebook Pixel (cloaked affiliate link click)</br>
+	**Tag 3. Facebook Pixel (cloaked affiliate link click)**</br>
 
 	Create another tag (see tag 1 and 2) but use the following code in the HTML field instead:</br>
 	```
