@@ -144,5 +144,6 @@ Save, submit, publish. And were done with the facebook pixel and tag manager.</b
 
 ## And you are done ##
 
-Now when creating a new facebook ads campaign you are able to (after selecting ‘conversion’ as ad objective) select ‘Leads’ as event to optimize on. Making the facebook ML algorithms optimize on actually finding the best placements, timing and targeting combinations for clicks towards your affiliate links instead of just on clicks you ads or landings on you page.
+### Now when creating a new facebook ads campaign you are able to (after selecting ‘conversion’ as ad objective) select ‘Leads’ as event to optimize on. Making the facebook ML algorithms optimize on actually finding the best placements, timing and targeting combinations for predicted clicks on your website's affiliate links instead of just on clicks on your ads or landings on you page. ###
+
 
