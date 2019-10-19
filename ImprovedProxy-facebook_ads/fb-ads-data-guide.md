@@ -3,7 +3,8 @@
 As most marketeers will know, running ads directly towards your affiliate link (cloaked or open) will result in a ban.</br> And probably rightfully so keeping UX in mind.</br> 
 This makes it a lot harder to correctly optimize facebook ads and targeting than it is for google ads. I have noticed that this causes a lot of affiliate marketeers to either allocate their resources exclusively towards google ads, or to use ad click (or page landings) as a proxy for leads to optimize facebook ads on.</br>
 </br>
-### So I want to share here the way I have been doing it. Please no that this entirely separate from my employment at facebook and is in no way endorsed by facebook or any of their official representatives. ### 
+### So I want to share here the way I have been doing it. Please no that this entirely separate from my employment at facebook and is in no way endorsed by facebook or any of their official representatives. ###
+
 </br>
 ** Required tooling: **</br>
 - Tag Manager (I used Google Tag Manager (freemium))</br>
