@@ -23,8 +23,10 @@ Dropdown lists (data validation) to create the full string (URL + mediacode).
 - Parameter 6 (empty)
 - 'Advertising Media' (empty)
 - Extra custom parameter (&cc1=..)
-(- Seperators and 'wt_mc=')
-
+(- Seperators and 'wt_mc=')</br>
+</br>
+</br>
 ** Custom made for UWV campaign structure. ** </br>
+</br>
 </br>
 TagTool_Webtrekk_CampaingTracking
