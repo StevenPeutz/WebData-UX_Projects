@@ -6,7 +6,8 @@ Dropdown lists (data validation) to create the full string (URL + mediacode).
 
 *With built in 'seperator checker' (counts and validates the amount of seperators in your final taggedn URL),
 'parameter minimum checker', and some other small checks.*
-
+</br>
+</br>
 
 **Includes;**
 - publication date (list for day, month, year)
