@@ -88,7 +88,8 @@ Take the code provided for your facebook pixel, and take out the following part<
 
 
 Your code should now look like this (the number is unique to your account):</br>
-<!-- Facebook Pixel Code →
+```
+<!-- Facebook Pixel Code -->
 <script></br>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -99,7 +100,10 @@ document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '45525584503xxx');
 
 </script>
-<!-- End Facebook Pixel Code →</br>
+<!-- End Facebook Pixel Code -->
+``` 
+
+</br>
 Put this in the HTML field and take ‘All Pages’ as trigger.</br>
 Fold open the ‘advanced settings’ and put in 99 (highest) in tag firing priority.</br>
 </br>
@@ -110,19 +114,23 @@ Select ‘All Pages’ as firing Trigger.</br>
 Tag 2. Facebook Pixel ‘pageview’</br>
 	
 	Create another tag (see tag 1) but use the following code in the HTML field instead:
+	```
 	<script>
   	fbq('track', "PageView");
  	 </script>
+	 ```
 	(this time leave tag firing priority empty)
 </br>
 Tag 3. Facebook Pixel (cloaked affiliate link click)</br>
 
 	Create another tag (see tag 1 and 2) but use the following code in the HTML field instead:</br>
+	```
 	<script>
  	 fbq('track', 'Lead', {
     value: 1,
   });
 </script>
+```
 (You can change the ‘Lead’ to something else, but to prevent issues with ‘ad objectives’ you should pick something predefined like ‘Leads’ or ‘ . Leave tag firing priority empty.
 I put value to 1 for test purposes but ideally you would the value of your total profit 
 	divided by the total number of leads over the same period to function as an average 
