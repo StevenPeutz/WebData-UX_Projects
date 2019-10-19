@@ -1,36 +1,36 @@
 # How to (get the data to automatically) optimize facebook ads on actual affiliate marketing leads? #
 </br>
-As most marketeers will know, running ads directly towards your affiliate link (cloaked or open) will result in a ban. And probably rightfully so keeping UX in mind.</br> 
-This makes it a lot harder to correctly optimize facebook ads and targeting than it is for google ads. I have noticed that this causes a lot of affiliate marketeers to either allocate their resources exclusively towards google ads, or to use ad click (or page landings) as a proxy for leads to optimize facebook ads on.
+As most marketeers will know, running ads directly towards your affiliate link (cloaked or open) will result in a ban.</br> And probably rightfully so keeping UX in mind.</br> 
+This makes it a lot harder to correctly optimize facebook ads and targeting than it is for google ads. I have noticed that this causes a lot of affiliate marketeers to either allocate their resources exclusively towards google ads, or to use ad click (or page landings) as a proxy for leads to optimize facebook ads on.</br>
 </br>
-So I want to share here the way I have been doing it. Please no that this entirely separate from my employment at facebook and is in no way endorsed by facebook or any of their official representatives. 
+**So I want to share here the way I have been doing it. Please no that this entirely separate from my employment at facebook and is in no way endorsed by facebook or any of their official representatives.** </br>
 </br>
-** Required tooling: **
-- Tag Manager (I used Google Tag Manager (freemium))
-- Click Stream analytics tool (I used Google Analytics (freemium))
-- Hotjar & google optimize  (optional, (freemium))
-- Bulk Redirect Manager (aka link cloaking tool, I used the Thirsty Affiliates plugin for Wordpress (freemium))
-- Facebook Pixel (and Ads Manager (free))
+** Required tooling: **</br>
+- Tag Manager (I used Google Tag Manager (freemium))</br>
+- Click Stream analytics tool (I used Google Analytics (freemium))</br>
+- Hotjar & google optimize  (optional, (freemium))</br>
+- Bulk Redirect Manager (aka link cloaking tool, I used the Thirsty Affiliates plugin for Wordpress (freemium))</br>
+- Facebook Pixel (and Ads Manager (free))</br>
 </br>
-Another thing we need is strong converting (landing)page to function as an interstitial between the facebook ad and the website we are the affiliate for.
+Another thing we need is strong converting (landing)page to function as an interstitial between the facebook ad and the website we are the affiliate for.</br>
 </br>
 The way to go here is either create a new page to perfectly match with the message and created expectations within your ads. Or just look at your analytics data and choose the pages that has the highest % of affiliate link clicks.
 </br>
-**The advantages of working with an interstitial page:**
-- you can lead one ad to a page were several competing (affiliate) products can be compared and chosen by your visitors.
-- These interstitial pages are way better to learn what your (potential) customer wants than just going by the facebook ad click data and insights. It goes without saying that these interstitial pages should have -at bare minimum- a good implementation of click stream analytics tooling (e.g. GA), something like hotjar and A/B testing tooling (e.g. Google Optimize, VWO or Optimizely) set up.
-- Simply more room for for good content, and nudging practices. Take into account the flow from their personal facebook to seeing the ad (copy + image + formed expectations) to landing on this interstitial all the way to the pages from the website your are the affiliate for.
-- the main one; it simply prevents you as affiliate marketeer from getting banned from facebook ads..
+**The advantages of working with an interstitial page:**</br>
+- you can lead one ad to a page were several competing (affiliate) products can be compared and chosen by your visitors.</br>
+- These interstitial pages are way better to learn what your (potential) customer wants than just going by the facebook ad click data and insights. It goes without saying that these interstitial pages should have -at bare minimum- a good implementation of click stream analytics tooling (e.g. GA), something like hotjar and A/B testing tooling (e.g. Google Optimize, VWO or Optimizely) set up.</br>
+- Simply more room for for good content, and nudging practices. Take into account the flow from their personal facebook to seeing the ad (copy + image + formed expectations) to landing on this interstitial all the way to the pages from the website your are the affiliate for.</br>
+- the main one; it simply prevents you as affiliate marketeer from getting banned from facebook ads..</br>
 </br>
-**The downsides:**
-The interstitial is an extra step in the funnel; = increased attrition. This will always be at least partly true. Key is to make optimize the transition as much as possible by minimizing any friction on this interstitial, and using the extra content to increase the desire/motivation to convert on the page(s) to follow.
+**The downsides:**</br>
+The interstitial is an extra step in the funnel; = increased attrition. This will always be at least partly true.</br> Key is to make optimize the transition as much as possible by minimizing any friction on this interstitial, and using the extra content to increase the desire/motivation to convert on the page(s) to follow.</br>
 Automated Ad optimization will not work. Or at least, the proxy you will need to use (landing or ad link licks) is a horrible predictor for actual leads.
 </br>
 </br>
 I am assuming here google tag manager and google analytics have already been implemented. For completeness I have added a link to a good guide on how to implement these two tools. 
 </br>
-**Step 1 & 2**
-Install Google Tag Manager and Google analytics
+**Step 1 & 2**</br>
+Install Google Tag Manager and Google analytics</br>
 Since a tag manager (should but) isn’t ubiquitous yet (especially for wordpress sites) here is a link to a guide that explains how to implement google tag manager on a wordpress site. https://www.wpbeginner.com/beginners-guide/how-to-install-and-setup-google-tag-manager-in-wordpress/
 </br>
 
