@@ -14,7 +14,7 @@ This makes it a lot harder to correctly optimize facebook ads and targeting than
 </br>
 Another thing we need is strong converting (landing)page to function as an interstitial between the facebook ad and the website we are the affiliate for.</br>
 </br>
-The way to go here is either create a new page to perfectly match with the message and created expectations within your ads. Or just look at your analytics data and choose the pages that has the highest % of affiliate link clicks.
+The way to go here is either create a new page to perfectly match with the message and created expectations within your ads. Or just look at your analytics data and choose the pages that has the highest % of affiliate link clicks.</br>
 </br>
 **The advantages of working with an interstitial page:**</br>
 - you can lead one ad to a page were several competing (affiliate) products can be compared and chosen by your visitors.</br>
@@ -27,22 +27,22 @@ The interstitial is an extra step in the funnel; = increased attrition. This wil
 Automated Ad optimization will not work. Or at least, the proxy you will need to use (landing or ad link licks) is a horrible predictor for actual leads.
 </br>
 </br>
-I am assuming here google tag manager and google analytics have already been implemented. For completeness I have added a link to a good guide on how to implement these two tools. 
+I am assuming here google tag manager and google analytics have already been implemented. For completeness I have added a link to a good guide on how to implement these two tools. </br>
 </br>
 **Step 1 & 2**</br>
 Install Google Tag Manager and Google analytics</br>
-Since a tag manager (should but) isn’t ubiquitous yet (especially for wordpress sites) here is a link to a guide that explains how to implement google tag manager on a wordpress site. https://www.wpbeginner.com/beginners-guide/how-to-install-and-setup-google-tag-manager-in-wordpress/
+Since a tag manager (should but) isn’t ubiquitous yet (especially for wordpress sites) here is a link to a guide that explains how to implement google tag manager on a wordpress site. https://www.wpbeginner.com/beginners-guide/how-to-install-and-setup-google-tag-manager-in-wordpress/</br>
 </br>
-
+</br>
 **Step 3 (optional)**</br>
 Create a systematic structure for link cloaking</br>
 This is not technically required, so this could be skipped if you are in a hurry.
 Create a spreadsheet with one column with all your different affiliate programs (if you only have one still put down that name or abbreviation), a second column to the right of it expanding each affiliate program row with a one word rough descriptor like ‘header’ (or ‘hdr’), ‘body’ and ‘footer’, another column, expanding on each of these rows (mostly needed for the ‘body’ row) with ‘button’, ‘textlink’, ‘cta_link’, ‘cta_button’ etc. 
 This will create (in this example (with 1 affiliate program) a 1 x 3 x 4 row scheme).  
 You now concatenate these (e.g. with - in between) to get one unique string per ‘row’, and paste this in a new column to the right.  
-The unique string should look something like “affiatename-body-cta_link”.
+The unique string should look something like “affiatename-body-cta_link”.</br>
 </br>
-
+</br>
 **Step 4.**</br>
 Link cloaking in wordpress</br>
 Install a redirect manager (e.g. thirsty affiliates) plugin on your wordpress site. 
@@ -61,6 +61,7 @@ Use the unique strings you just created in step 3 and your affiliate link final 
 Clicking ‘Save link’ creates a your cloaked link. (Copy this link and put it in the column in your spreadsheet on the row of its used unique string ) 
 Now do this for all rows in your spreadsheet.</br>
 </br>
+</br>
 **Step 5.**</br> 
 Create a custom trigger that listens to clicks on the cloaked links.</br>
 Before installing the facebook Pixel we will create this custom trigger.</br>
@@ -73,8 +74,7 @@ Give your trigger a logical name (e.g. “affiliate link click - aff.X”)*
 </br>
 </br>
 
-
-**Step 5.**</br>
+**Step 6.** </br>
 Installing the facebook Pixel.</br>
 To prevent some timing issues we will separate the facebook pixel code into three tags</br>
 (initializing the base code, the pageview push and the cloaked affiliate link click push):</br>
@@ -127,10 +127,10 @@ Tag 3. Facebook Pixel (cloaked affiliate link click)</br>
 	```
 	<script>
  	 fbq('track', 'Lead', {
-    value: 1,
-  });
-</script>
-```
+    	value: 1,
+  	});
+	</script>
+	```
 (You can change the ‘Lead’ to something else, but to prevent issues with ‘ad objectives’ you should pick something predefined like ‘Leads’ or ‘ . Leave tag firing priority empty.
 I put value to 1 for test purposes but ideally you would the value of your total profit 
 	divided by the total number of leads over the same period to function as an average 
