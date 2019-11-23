@@ -34,11 +34,14 @@ Best practice here is either to create a new page to perfectly match with the me
 ●	The interstitial is an extra step in the funnel; = increased attrition. This will always be at least partly true. Key is to make optimize the transition as much as possible by minimizing any friction on this interstitial, and using the extra content to increase the desire/motivation to convert on the page(s) to follow.  
 ●	Automated Ad optimization will not work. Or at least, the proxy you will need to use (landing or ad link licks) is a horrible predictor for actual leads (e.g. affiliate link clicks).  
 <br />
-Setting up the correct data pipeline (tracking + sending to your fb ad account)
-I am assuming here google tag manager and google analytics have already been implemented. For completeness I have added a link to a good guide on how to implement these two tools. 
 <br />
+Setting up the correct data pipeline (tracking + sending to your fb ad account) I am assuming here google tag manager and google analytics have already been implemented. For completeness I have added a link to a good guide on how to implement these two tools. 
+<br />
+<br />
+
  	**Step 1**  *“installing GTM and GA”*<br /> 
   Install Google Tag Manager (and Google analytics)	Since a tag manager (should but) isn’t ubiquitous yet (especially for wordpress sites)  	here is a link to a guide that explains how to implement google tag manager on a  	wordpress site. https://www.wpbeginner.com/how-to....
+<br />
 
  
 **Step 2** (optional, *“link cloaking scheme”*)<br /> 
@@ -57,6 +60,7 @@ Use the unique strings you just created in step 2 and your affiliate link final 
  (if you have skipped step 2, and just want a single link to rule them all (not ideal), put in a name that makes sense for you in the top field instead of the unique string, and continue)
 
 Clicking ‘Save link’ creates a your cloaked link. (Copy this link and put it in the column in your spreadsheet on the row of its used unique string )  Now do this for all rows in your spreadsheet.
+<br />
 
 **Step 4.**  *“GTM; creating the custom trigger”* <br /> 
 Create a custom trigger that listens to clicks on the cloaked links.
@@ -66,6 +70,7 @@ Before installing the facebook Pixel we will create this custom trigger.
 -	Choose ‘Click URL’ and select ‘contains’ and then type the chosen link prefix (from step 3, thirsty affiliates). E.g. ‘recommends/ or ‘review/’ 
  (this is where you can expand by creating different triggers per affiliate program because you started each unique string with the affiliate program/product name)
 -	Give your trigger a logical name (e.g. “affiliate link click - aff.X”) 
+<br />
 
 
 **Step 5.**  *“Facebook Pixel”*<br />
