@@ -42,11 +42,14 @@ Setting up the correct data pipeline (tracking + sending to your fb ad account) 
  	**Step 1**  *“installing GTM and GA”*<br /> 
   Install Google Tag Manager (and Google analytics)	Since a tag manager (should but) isn’t ubiquitous yet (especially for wordpress sites)  	here is a link to a guide that explains how to implement google tag manager on a  	wordpress site. https://www.wpbeginner.com/how-to....
 <br />
+<br />
 
  
 **Step 2** (optional, *“link cloaking scheme”*)<br /> 
 Create a systematic structure for link cloaking
 This is not technically required, so this could be skipped if you are in a hurry. Create a spreadsheet with one column with all your different affiliate programs (if you only have one still put down that name or abbreviation), a second column to the right of it expanding each affiliate program row with a one word rough descriptor like ‘header’ (or ‘hdr’), ‘body’ and ‘footer’, another column, expanding on each of these rows (mostly needed for the ‘body’ row) with ‘button’, ‘textlink’, ‘cta_link’, ‘cta_button’ etc.  This will create (in this example (with 1 affiliate program) a 1 x 3 x 4 row scheme).   You now concatenate these (e.g. with - in between) to get one unique string per ‘row’, and paste this in a new column to the right.   The unique string should look something like “affiatename-body-cta_link”.
+<br />
+<br />
 
 **Step 3** *“Link cloaking”*<br />
 Link cloaking in wordpress. Install a redirect manager (e.g. thirsty affiliates) plugin on your wordpress site. 
@@ -61,6 +64,7 @@ Use the unique strings you just created in step 2 and your affiliate link final 
 
 Clicking ‘Save link’ creates a your cloaked link. (Copy this link and put it in the column in your spreadsheet on the row of its used unique string )  Now do this for all rows in your spreadsheet.
 <br />
+<br />
 
 **Step 4.**  *“GTM; creating the custom trigger”* <br /> 
 Create a custom trigger that listens to clicks on the cloaked links.
@@ -70,6 +74,7 @@ Before installing the facebook Pixel we will create this custom trigger.
 -	Choose ‘Click URL’ and select ‘contains’ and then type the chosen link prefix (from step 3, thirsty affiliates). E.g. ‘recommends/ or ‘review/’ 
  (this is where you can expand by creating different triggers per affiliate program because you started each unique string with the affiliate program/product name)
 -	Give your trigger a logical name (e.g. “affiliate link click - aff.X”) 
+<br />
 <br />
 
 
