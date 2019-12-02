@@ -4,6 +4,7 @@ As most marketeers will know, running facebook(/instagram) ads directly towards 
 
 So I want to share here the way I have been doing it. Please no that this entirely separate from my employment at facebook and is in no way endorsed by facebook or any of their representatives.
 <br />
+![Required tooling](/IMG/image3.png) 
 <br />
 
 ### Required tooling: ###
@@ -49,7 +50,7 @@ Setting up the correct data pipeline (tracking + sending to your fb ad account) 
 **Step 2** (optional, *“link cloaking scheme”*)<br /> 
 Create a systematic structure for link cloaking
 This is not technically required, so this could be skipped if you are in a hurry. Create a spreadsheet with one column with all your different affiliate programs (if you only have one still put down that name or abbreviation), a second column to the right of it expanding each affiliate program row with a one word rough descriptor like ‘header’ (or ‘hdr’), ‘body’ and ‘footer’, another column, expanding on each of these rows (mostly needed for the ‘body’ row) with ‘button’, ‘textlink’, ‘cta_link’, ‘cta_button’ etc.  This will create (in this example (with 1 affiliate program) a 1 x 3 x 4 row scheme).   You now concatenate these (e.g. with - in between) to get one unique string per ‘row’, and paste this in a new column to the right.   The unique string should look something like “affiatename-body-cta_link”.
-[thirstyaffiates link cloaking for wop](IMG/image3.png)  
+![thirstyaffiates link cloaking for wp](/IMG/image1.png)  
 <br />
 <br />
 
@@ -63,7 +64,9 @@ Other settings (optional) - If you have more than one different affiliate link
 Creating the actual links you will need.
 Use the unique strings you just created in step 2 and your affiliate link final URLs given by your affiliate program provider to create your cloaked links (see screenshot).
 
- (if you have skipped step 2, and just want a single link to rule them all (not ideal), put in a name that makes sense for you in the top field instead of the unique string, and continue)
+ (if you have skipped step 2, and just want a single link to rule them all (not ideal), put in a name that makes sense for you in the top field instead of the unique string, and continue)  
+ 
+ ![thirstyaffiates link cloaking for wp](/IMG/image7.png) 
 
 Clicking ‘Save link’ creates a your cloaked link. (Copy this link and put it in the column in your spreadsheet on the row of its used unique string )  Now do this for all rows in your spreadsheet.
 <br />
@@ -75,7 +78,8 @@ Create a custom trigger that listens to clicks on the cloaked links.
 Before installing the facebook Pixel we will create this custom trigger.
 -	Go to ‘Triggers’ > ‘Create new trigger’ > Trigger `Configuration’  in the Tag Manager.
 -	Choose ‘Just Links’  and check ‘Some Link Clicks’ option.
--	Choose ‘Click URL’ and select ‘contains’ and then type the chosen link prefix (from step 3, thirsty affiliates). E.g. ‘recommends/ or ‘review/’ 
+-	Choose ‘Click URL’ and select ‘contains’ and then type the chosen link prefix (from step 3, thirsty affiliates). E.g. ‘recommends/ or ‘review/’   
+![Custom trigger GTM](/IMG/image2.png) 
  (this is where you can expand by creating different triggers per affiliate program because you started each unique string with the affiliate program/product name)
 -	Give your trigger a logical name (e.g. “affiliate link click - aff.X”) 
 <br />
@@ -103,6 +107,7 @@ fbq('init', '45525584503xxx');
 </script>  
 <!-- End Facebook Pixel Code -->  
 ```
+![Custom trigger GTM](/IMG/image4.png) 
 Put this in the HTML field and take ‘All Pages’ as trigger.
 Fold open the ‘advanced settings’ and put in 99 (highest) in tag firing priority.
 
