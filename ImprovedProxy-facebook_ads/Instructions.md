@@ -66,7 +66,7 @@ Use the unique strings you just created in step 2 and your affiliate link final 
 
  (if you have skipped step 2, and just want a single link to rule them all (not ideal), put in a name that makes sense for you in the top field instead of the unique string, and continue)  
  
- ![thirstyaffiates link cloaking for wp](/IMG/image7.png) 
+ ![thirstyaffiates link cloaking for wp](IMG/image7.png) 
 
 Clicking ‘Save link’ creates a your cloaked link. (Copy this link and put it in the column in your spreadsheet on the row of its used unique string )  Now do this for all rows in your spreadsheet.
 <br />
@@ -107,7 +107,7 @@ fbq('init', '45525584503xxx');
 </script>  
 <!-- End Facebook Pixel Code -->  
 ```
-![Pixcel base code](/IMG/image4.png) 
+![Pixel base code](/IMG/image4.png)   
 Put this in the HTML field and take ‘All Pages’ as trigger.
 Fold open the ‘advanced settings’ and put in 99 (highest) in tag firing priority.
 
