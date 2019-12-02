@@ -1,5 +1,5 @@
 ## Code snippets. ##  
-For more informatioon see ['Instructions.md'](https://github.com/digitalmarketingprojects/improvedproxy-facebook_ads/instructions.md)
+For more informatioon see ['Instructions.md'](/instructions.md)
 
 
 Part to take out:
