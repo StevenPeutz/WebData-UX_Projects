@@ -86,16 +86,22 @@ Installing the facebook Pixel. To prevent some timing issues we will separate 
 
 -	Tag 1. Facebook Pixel ‘Base code’
 Create a new custom HTML tag in google tag manager
-Take the code provided for your facebook pixel, and take out the following part    fbq('track', "PageView");  
-Your code should now look like this (the number is unique to your account): <!-- Facebook Pixel Code --> <script>
+Take the code provided for your facebook pixel, and take out the following part  
+```
+fbq('track', "PageView");  
+```
+Your code should now look like this (the number is unique to your account):  
+```
+<!-- Facebook Pixel Code --> <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '45525584503xxx');
-</script>
-<!-- End Facebook Pixel Code -->
+</script>  
+<!-- End Facebook Pixel Code -->  
+```
 Put this in the HTML field and take ‘All Pages’ as trigger.
 Fold open the ‘advanced settings’ and put in 99 (highest) in tag firing priority.
 
@@ -104,18 +110,23 @@ Fold open the ‘advanced settings’ and put in 99 (highest) in tag firing prio
 Select ‘All Pages’ as firing Trigger.
 
 -	Tag 2. Facebook Pixel ‘pageview push’
-	Create another tag (see tag 1) but use the following code in the HTML field instead:
+	Create another tag (see tag 1) but use the following code in the HTML field instead:  
+	```
 	<script>
   	fbq('track', "PageView");
- 	 </script>
+ 	 </script>  
+	 ```
 	(this time leave tag firing priority empty) 
 
--	Tag 3. Facebook Pixel (cloaked affiliate link click push) Create another tag (see tag 1 and 2) but use the following code in the HTML field instead: <script>
+-	Tag 3. Facebook Pixel (cloaked affiliate link click push) Create another tag (see tag 1 and 2) but use the following code in the HTML field instead:  
+```
+<script>
  	 fbq('track', 'Lead', {
     value: 1,
     currency: ‘EUR’
   });
-</script>
+</script>  
+```
 
 
 (You can change the ‘Lead’ to something else, but to prevent issues with ‘ad objectives’  	you should pick something predefined like ‘Leads’ or ‘ . Leave tag firing priority empty.
