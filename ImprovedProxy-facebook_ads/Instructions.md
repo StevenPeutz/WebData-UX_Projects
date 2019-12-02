@@ -49,6 +49,7 @@ Setting up the correct data pipeline (tracking + sending to your fb ad account) 
 **Step 2** (optional, *“link cloaking scheme”*)<br /> 
 Create a systematic structure for link cloaking
 This is not technically required, so this could be skipped if you are in a hurry. Create a spreadsheet with one column with all your different affiliate programs (if you only have one still put down that name or abbreviation), a second column to the right of it expanding each affiliate program row with a one word rough descriptor like ‘header’ (or ‘hdr’), ‘body’ and ‘footer’, another column, expanding on each of these rows (mostly needed for the ‘body’ row) with ‘button’, ‘textlink’, ‘cta_link’, ‘cta_button’ etc.  This will create (in this example (with 1 affiliate program) a 1 x 3 x 4 row scheme).   You now concatenate these (e.g. with - in between) to get one unique string per ‘row’, and paste this in a new column to the right.   The unique string should look something like “affiatename-body-cta_link”.
+[thirstyaffiates link cloaking for wop](IMG/image3.png)  
 <br />
 <br />
 
