@@ -107,7 +107,7 @@ fbq('init', '45525584503xxx');
 </script>  
 <!-- End Facebook Pixel Code -->  
 ```
-![Custom trigger GTM](/IMG/image4.png) 
+![Pixcel base code](/IMG/image4.png) 
 Put this in the HTML field and take ‘All Pages’ as trigger.
 Fold open the ‘advanced settings’ and put in 99 (highest) in tag firing priority.
 
