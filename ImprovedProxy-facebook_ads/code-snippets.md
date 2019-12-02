@@ -1,5 +1,5 @@
 ## Code snippets. ##  
-For more informatioon see ['Instructions.md'](/instructions.md)
+For more informatioon see ['Instructions.md'](instructions.md)
 
 
 Part to take out:
