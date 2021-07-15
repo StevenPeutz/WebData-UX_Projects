@@ -5,7 +5,7 @@
 
 ### [CSat-Ux-Instrument](https://github.com/StevenPeutz/WebData-UX_Projects/tree/master/Csat-UX-instrument)
 
-- Creating a weighted multidimensional UX/CSat instrument that enables analysts and marketeers to deep dive into scores on underlying dimensions or changes in UX/CSat, while brief enough for on-site VoC tooling (leveraging factor analysis and multiple regression)
+- Creating a weighted multidimensional UX/CSat instrument that enables analysts and marketeers to deep dive into scores on underlying dimensions or changes in UX/CSat, while brief enough for on-site VoC tooling (leveraging factor analysis and multiple regression)  
 [View slided as PDF](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/Csat-UX-instrument/Scaling_CSAT_UX.pdf)
 
 
