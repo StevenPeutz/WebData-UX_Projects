@@ -37,5 +37,5 @@ Here is the source allocation (PESO model) outlined and explained for web analyt
 # Complete source allocation strategy #  
  
 Here is the source allocation (PESO model) outlined and explained for web analytics (log data):  
-[pdf explainer for web analytics](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/TagTool-URLparameters/Webtrekk_Advanced_SourceAllocation_Webtrekk_stevenpeutz.pdf)
+[pdf draft](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/TagTool-URLparameters/Webtrekk_Advanced_SourceAllocation_Webtrekk_stevenpeutz.pdf)
 
