@@ -5,7 +5,7 @@
 
 ### [CSat-Ux-Instrument](https://github.com/StevenPeutz/WebData-UX_Projects/tree/master/Csat-UX-instrument)
 
-- Creating a weighted multidimensional UX/CSat instrument that enables analysts and marketeers to deep dive into scores on underlying dimensions or changes in UX/CSat, while brief enough for on-site VoC tooling (leveraging factor analysis and multiple regression)  
+- Creating a weighted multidimensional UX/CSat instrument that enables analysts and marketeers to deep dive into scores on underlying dimensions or changes in UX/CSat, while brief enough for on-site VoC tooling (leveraging factor analysis and multiple regression)
 [View slides as PDF](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/Csat-UX-instrument/Scaling_CSAT_UX.pdf)
 
 
@@ -23,11 +23,11 @@ So I want to share here the way I have been doing it. Please no that this entire
 
 - Clickstream analytics suite (Webtrekk/mapp Intelligence) Tag generator tool for Campaigntracking.
 Create the complete tagged URLs (URL+mediacodes) for Webtrekk Analytics with dropdown selection lists (XLS). Dropdown lists (data validation) to create the full string (URL + mediacode).
-With built in 'seperator checker' (counts and validates the amount of seperators in your final taggedn URL), 'parameter minimum checker', and some other small checks.
+With built in 'seperator checker' (counts and validates the amount of seperators in your final taggedn URL), 'parameter minimum checker', and some other small checks. [View slides as PDF](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/TagTool-URLparameters/Webtrekk_Advanced_SourceAllocation_Webtrekk_stevenpeutz.pdf)
 
 
 
 ### [UI-Analysis-Calc](https://github.com/StevenPeutz/WebData-UX_Projects/tree/master/UI-Analysis-Calc.)
 
 - Analytical framework for predicting the amount of reduction in Calls (to Customer Support) over time due to a UI redo. (This framework is adapted to contain only aggregated (high-over) data, calculations built on top of the framework are not and will not be included on github for UWV privacy considerations)
-[View slides OLD DRAFT](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/UI-Analysis-Calc./Callreduction_Estimate_proposal.pdf)  
+[View slides as PDF](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/UI-Analysis-Calc./Callreduction_Estimate_proposal.pdf)  
