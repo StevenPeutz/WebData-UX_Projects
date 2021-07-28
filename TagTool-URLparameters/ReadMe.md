@@ -5,8 +5,10 @@ Create the complete tagged URLs (URL+mediacodes) for **Webtrekk Analytics** with
 Dropdown lists (data validation) to create the full string (URL + mediacode).
 
 *With built in 'seperator checker' (counts and validates the amount of seperators in your final taggedn URL),
-'parameter minimum checker', and some other small checks.*
+'parameter minimum checker', and some other small checks.*  
 </br>
+Here is the source allocation (PESO model) outlined and explained for web analytics (log data):  
+[pdf explainer for web analytics](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/TagTool-URLparameters/Webtrekk_Advanced_SourceAllocation_Webtrekk_stevenpeutz.pdf)  
 </br>
 
 **Includes;**
@@ -26,13 +28,12 @@ Dropdown lists (data validation) to create the full string (URL + mediacode).
 (- Seperators and 'wt_mc=')</br>
 </br>
 </br>
-** Custom made for UWV campaign structure. ** </br>
 </br>
-</br>
-**TagTool_Webtrekk_CampaingTracking**  
-[Download TagTool xls](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/TagTool-URLparameters/TagTool_Webtrekk_V0.91.xlsx)  
+##TagTool_Webtrekk_CampaingTracking## 
 
-</br>    
+[Download TagTool xls](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/TagTool-URLparameters/TagTool_Webtrekk_V0.91.xlsx)    
+</br>
+    
 # Complete source allocation strategy #  
  
 Here is the source allocation (PESO model) outlined and explained for web analytics (log data):  
