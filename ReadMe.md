@@ -29,4 +29,5 @@ With built in 'seperator checker' (counts and validates the amount of seperators
 
 ### [UI-Analysis-Calc](https://github.com/StevenPeutz/WebData-UX_Projects/tree/master/UI-Analysis-Calc.)
 
-- Analytical framework for predicting the amount of reduction in Calls (to Customer Support) over time due to a UI redo. (This framework is adapted to contain only aggregated (high-over) data, calculations built on top of the framework are not and will not be included on github for UWV privacy considerations)
+- Analytical framework for predicting the amount of reduction in Calls (to Customer Support) over time due to a UI redo. (This framework is adapted to contain only aggregated (high-over) data, calculations built on top of the framework are not and will not be included on github for UWV privacy considerations)  
+[pdf slides OLD DRAFT](https://github.com/StevenPeutz/WebData-UX_Projects/blob/master/UI-Analysis-Calc./Callreduction_Estimate_proposal.pdf)  
